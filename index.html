@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AES-256 Secure Messenger</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="icon-box">🔒</div>
+      <h1>AES-256 Secure Messenger</h1>
+    </div>
+    <p class="subtitle"> Message Decoder </p>
+
+    <label for="msg" class="label label-blue">✉️ Message</label>
+    <textarea id="msg" rows="4" placeholder="Type your message here..."></textarea>
+
+    <label for="key" class="label label-orange">🔑 Secret Key</label>
+    <input id="key" type="text" placeholder="Enter a passphrase">
+
+    <div class="btn-row">
+      <button id="encBtn" class="btn btn-green">🔒 Encrypt</button>
+      <button id="decBtn" class="btn btn-blue">🔓 Decrypt</button>
+    </div>
+
+    <label for="out" class="label label-pink">🖥️ Output</label>
+    <textarea id="out" rows="4" readonly placeholder="Result will appear here..."></textarea>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

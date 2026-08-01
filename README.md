@@ -1,4 +1,3 @@
-# 🔐 AES Message Encryptor
 
 A web-based text encryption tool that uses AES encryption to secure messages, built with a colorful cyber-themed UI. Developed as part of an Information Security course project.
 

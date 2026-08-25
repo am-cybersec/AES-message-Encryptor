@@ -22,10 +22,3 @@ A web-based text encryption tool that uses AES encryption to secure messages, bu
 3. The ciphertext can be shared safely.
 4. On the receiving end, entering the same key and clicking **Decrypt** recovers the original message.
 
-## Installation & Usage
-
-No build tools or dependencies required.
-
-```bash
-git clone https://github.com/am-cybersec/aes-message-encryptor.git
-cd aes-message-encryptor

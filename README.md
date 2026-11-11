@@ -20,5 +20,5 @@ A web-based text encryption tool that uses AES encryption to secure messages, bu
 1. User types a message and enters a secret key/password.
 2. On clicking **Encrypt**, CryptoJS uses AES to encrypt the message with the provided key, producing ciphertext.
 3. The ciphertext can be shared safely.
-4. On the receiving end, entering the same key and clicking **Decrypt** recovers the original message.
+4. On the receiving the end, entering the same key and clicking **Decrypt** recovers the original message.
 
